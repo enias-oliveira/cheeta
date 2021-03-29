@@ -16,8 +16,20 @@ Expected Features:
 - Error handling and alert
 - Commission calculator
 
-*** TODO Part 1: Binance Man
+*** TODO Part 1: Binance Man [0%]
 Listen to MH, place order in Binance exchange given custom order settings.
+**** TODO Market Hypothesis Receiver Class [2/8]
+***** [X] Test Listen to Minning Hamster Method
+***** [X] Listen to Minning Hamster Method
+***** [ ] Test Convert Minning Hamster Buy Singal to Buy Hypotesis
+***** [ ] Convert Minning Hamster Buy Singal to Buy Hypotesis
+***** [ ] Test Convert Minning Hamster Sell Singal to Sell Hypotesis
+***** [ ] Convert Minning Hamster Sell Singal to Sell Hypotesis
+***** [ ] Test Minning Hamster Listner Background process method
+***** [ ] Creae Minning Hamster Listner Background process method
+**** TODO Account Manager Class [0/2]
+***** [ ] Process Buy Hypotesis method
+***** [ ] Process Sell Hypotesis method
 
 *** TODO Part 2: The key is in the past
 Save portofolio and trade data given placed orders.
@@ -39,3 +51,12 @@ Cheeta runs a server that can receive trades as a POST request and access to the
 
 ** TODO PHASE 4: ENDCONTRACTS
 There was an idea, to write smart-contracts and bring together, a group of traders and investors, to see if we can become something more...
+
+* CONSTANTS
+BINANCE_TEST_NET_URL = "https://testnet.binance.vision/api"
+BINANCE_TEST_API_KEY = (
+    "c9akursIMvmT0X5uahwGqQuTNeul53GK1GHOeQP9vD9Phc74fef66x9dXGqqlGi2"
+)
+BINANCE_TEST_SECRET_KEY = (
+    "jeA3pO2b1VZzZoTQLv9PWWcmN8GpaPxK4xa4yUvrD7XziQo48Bu2uCbhPApnkgjG"
+)

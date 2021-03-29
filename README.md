@@ -1,9 +1,6 @@
-===========================================
-Cheeta: A Multi-Account Manager for Crypto Trading
-===========================================
+# Cheeta: A Multi-Account Manager for Crypto Trading
 
-Introduction
-===========================================
+## Introduction
 
 Cheeta is a Multi-Account manager for crypto trading. It allows a "superuser" to place a "Market Hypothesis", which Cheeta communicates to all users that qualify to make a personalized trade, based on the given hypothesis. 
 
@@ -25,8 +22,7 @@ That's where Cheeta comes in, it takes care of all these details and allows you,
 
 It's important to note that the strategy lives outside of Cheeta. Cheeta only receives a hypothesis, it cants create one. 
 
-When Should I use Cheeta? 
-____________________
+### When Should I use Cheeta? 
 
 Let's say you are a crypto day trader (a good one) and decides to expand your capital, and gains, by accepting to manage someone else funds.
 
@@ -48,8 +44,7 @@ You => Strategy => Market Hypotesis => A lot of annoying taks => Trades => More 
 With Cheeta:
 You => Strategy => Market Hypotesis => Cheeta => Trades => Commission
 
-What are Market Hypotheses?
-__________________________
+### What are Market Hypotheses?
 
 It's the result of your strategy, which decides what order should be placed in the crypto exchange. 
 
@@ -62,21 +57,16 @@ Initially, Cheeta will make GET request to a predefined API, but in the future w
 The ultimate goal is that Cheeta becomes deployable and able to receive POST requests to place orders and act as a Back end for a web application that displays the accounts state for the "superuser" and regular users can check their balance and portfolio performance.
 
 
-ROADMAP
-=======
+## ROADMAP
 
-PHASE 1: The First Avenger (IN DEVELOPMENT)
--------------------------
+### PHASE 1: The First Avenger (IN DEVELOPMENT)
 An MVP, Cheeta can manage one account with multiple coin pairs and exchanges. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
 
-PHASE 2: Avengers... Assemble
--------------------------
+### PHASE 2: Avengers... Assemble
 A scaled Cheeta that can manage multiple accounts and comes with a CLI. 
 
-PHASE 3: Infinity Backend
--------------------------
+### PHASE 3: Infinity Backend
 Cheeta runs a server that can receive trades as a POST request and access to the user's portfolio data via GET request. 
 
-PHASE 4: ENDCONTRACTS
----------------------
-There was an idea, to write smart-contracts and bring together, a group of traders and investors, to see if we can become something more...  
+### PHASE 4: ENDCONTRACTS
+There was an idea, to write smart-contracts and bring together, a group of traders and investors, to see if we can become something more...
