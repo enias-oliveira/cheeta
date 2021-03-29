@@ -1,0 +1,41 @@
+#+TITLE: Cheeta Development
+
+
+* ROADMAP
+
+** TODO PHASE 1: The First Avenger (IN DEVELOPMENT)
+An MVP, Cheeta can manage one account with multiple coin pairs and exchanges. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
+
+Expected Features:
+- Listen and process Minning Hamster Signals
+- Custom trading settings (Order size, risk)
+- Trade with different coin pairs
+- Trades historic data
+- Portfolio historic data
+- Trade in different Exchanges
+- Error handling and alert
+- Commission calculator
+
+*** TODO Part 1: Binance Man
+Listen to MH, place order in Binance exchange given custom order settings.
+
+*** TODO Part 2: The key is in the past
+Save portofolio and trade data given placed orders.
+
+*** TODO Part 3: More suits
+Place order in multiple exchanges, given portfolio and trade data
+
+*** TODO Part 4: Age of Erros and Vision of them
+Handle order placement errors, routine account check to spot inconsistencies and alert superuser.
+
+*** TODO Part 5: Genius, Billionaire, Playboy, Philanthropist...
+Calculate commission given portofolio, trades, time interval and deal parameters.
+
+** TODO PHASE 2: Avengers... Assemble
+A scaled Cheeta that can manage multiple accounts and comes with a CLI.
+
+** TODO PHASE 3: Infinity Backend
+Cheeta runs a server that can receive trades as a POST request and access to the user's portfolio data via GET request.
+
+** TODO PHASE 4: ENDCONTRACTS
+There was an idea, to write smart-contracts and bring together, a group of traders and investors, to see if we can become something more...
