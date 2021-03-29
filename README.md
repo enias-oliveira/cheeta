@@ -59,10 +59,10 @@ The ultimate goal is that Cheeta becomes deployable and able to receive POST req
 
 ## ROADMAP
 
-### PHASE 1: The First Avenger (IN DEVELOPMENT)
+### PHASE 1: The First Account (IN DEVELOPMENT)
 An MVP, Cheeta can manage one account with multiple coin pairs and exchanges. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
 
-### PHASE 2: Avengers... Assemble
+### PHASE 2: Accounts... Assemble
 A scaled Cheeta that can manage multiple accounts and comes with a CLI. 
 
 ### PHASE 3: Infinity Backend
