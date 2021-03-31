@@ -60,13 +60,13 @@ The ultimate goal is that Cheeta becomes deployable and able to receive POST req
 ## ROADMAP
 
 ### PHASE 1: The First Account (IN DEVELOPMENT)
-An MVP, Cheeta can manage one account with multiple coin pairs and exchanges. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
+An MVP, Cheeta can manage one account with multiple coin pair. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
 
 ### PHASE 2: Accounts... Assemble
-A scaled Cheeta that can manage multiple accounts and comes with a CLI. 
+A scaled Cheeta that can manage multiple accounts in multiple exchanges and comes with a CLI. 
 
 ### PHASE 3: Infinity Backend
-Cheeta runs a server that can receive trades as a POST request and access to the user's portfolio data via GET request. 
+Cheeta runs a server that can receive trades and access to the user's data via http request. 
 
 ### PHASE 4: ENDCONTRACTS
 There was an idea, to write smart-contracts and bring together, a group of traders and investors, to see if we can become something more...
