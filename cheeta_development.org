@@ -3,8 +3,8 @@
 
 * ROADMAP
 
-** TODO PHASE 1: The First Avenger (IN DEVELOPMENT)
-An MVP, Cheeta can manage one account with multiple coin pairs and exchanges. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
+** TODO PHASE 1: The First Exchange (IN DEVELOPMENT)
+An MVP, Cheeta can manage multiple accounts with multiple coin pairs in one exchange. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
 
 Expected Features:
 - Listen and process Minning Hamster Signals
@@ -30,7 +30,6 @@ Listen to MH, place order in Binance exchange given custom order settings.
 ***** [ ] Process Buy Hypotesis method
 ***** [ ] Process Sell Hypotesis method
 
-
 *** TODO Part 2: The key is in the past
 Save portofolio and trade data given placed orders.
 
@@ -40,13 +39,16 @@ Handle order placement errors, routine account check to spot inconsistencies and
 *** TODO Part 4: Genius, Billionaire, Playboy, Philanthropist...
 Calculate commission given portofolio, trades, time interval and deal parameters.
 
+*** TODO Part 5: A Bigger Universe
+Cheeta can manage multiple accounts stored in a users database.
 
 
-** TODO PHASE 2: Avengers... Assemble
+** TODO PHASE 2: Exchanges... Assemble
 A scaled Cheeta that can manage multiple accounts and comes with a CLI.
 
 Expected Features:
 - Trade in different Exchanges
+- Public and Private Key for API Keys Management
 
 *** TODO Part 3: More suits
 Place order in multiple exchanges, given portfolio and trade data
@@ -54,7 +56,7 @@ Place order in multiple exchanges, given portfolio and trade data
 
 
 ** TODO PHASE 3: Infinity Backend
-Cheeta runs a server that can receive trades as a POST request and access to the user's portfolio data via GET request.
+Cheeta runs a server that can receive orders and send user's portfolio data via HTTP request.
 
 
 ** TODO PHASE 4: ENDCONTRACTS

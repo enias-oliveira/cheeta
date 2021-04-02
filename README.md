@@ -52,17 +52,17 @@ It could be as simple as: "Elon Musk bought Dogecoin, let's go to the moon." and
 
 In the end, they all produce a Hypothesis about the market, with a coin pair, price prediction, size, etc. 
 
-Initially, Cheeta will make GET request to a predefined API, but in the future will have it's own CLI to place group orders on the go.  
+Initially, Cheeta will make GET request to a predefined API, but in the future will have it's own CLI to place group orders on the go.
 
 The ultimate goal is that Cheeta becomes deployable and able to receive POST requests to place orders and act as a Back end for a web application that displays the accounts state for the "superuser" and regular users can check their balance and portfolio performance.
 
 
 ## ROADMAP
 
-### PHASE 1: The First Account (IN DEVELOPMENT)
-An MVP, Cheeta can manage one account with multiple coin pair. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
+### PHASE 1: The First Exchange (IN DEVELOPMENT)
+An MVP, Cheeta can manage multiple accounts with multiple coin pairs in one exchange. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
 
-### PHASE 2: Accounts... Assemble
+### PHASE 2: Exchanges... Assemble
 A scaled Cheeta that can manage multiple accounts in multiple exchanges and comes with a CLI. 
 
 ### PHASE 3: Infinity Backend
