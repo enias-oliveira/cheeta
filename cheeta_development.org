@@ -1,10 +1,9 @@
 #+TITLE: Cheeta Development
 
-
 * ROADMAP
 
-** TODO PHASE 1: The First Exchange (IN DEVELOPMENT)
-An MVP, Cheeta can manage multiple accounts with multiple coin pairs in one exchange. User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
+** TODO PHASE 1: The First Trade (IN DEVELOPMENT)
+An MVP, Cheeta can manage multiple accounts and trades bitcoin pairs in one exchange (Binance). User portfolio and trades are stored in a Database and superuser commissions are easily accessible.
 
 Expected Features:
 - Listen and process Minning Hamster Signals
@@ -17,17 +16,36 @@ Expected Features:
 
 *** TODO Part 1: Binance Man [0%]
 Listen to MH, place order in Binance exchange given custom order settings.
-**** TODO Market Hypothesis Receiver Class [2/8]
-***** [X] Test Listen to Minning Hamster Method
-***** [X] Listen to Minning Hamster Method
-***** [ ] Test Convert Minning Hamster Buy Singal to Buy Hypotesis
-***** [ ] Convert Minning Hamster Buy Singal to Buy Hypotesis
-***** [ ] Test Convert Minning Hamster Sell Singal to Sell Hypotesis
-***** [ ] Convert Minning Hamster Sell Singal to Sell Hypotesis
-***** [ ] Test Minning Hamster Listner Background process method
-***** [ ] Creae Minning Hamster Listner Background process method
-**** TODO Account Manager Class [0/2]
+
+**** TODO Mining Hamster Signal Receiver Class [2/10]
+***** [X] Test Get Signal Method
+***** [X] Get Signal Method
+***** [ ] Test Static Receiver
+***** [ ] Static Receiver
+***** [ ] Test Convert Buy Singal to Market Hypotesis
+***** [ ] Convert Buy Singal to Market Hypotesis
+***** [ ] Test Convert Sell Singal to Market Hypotesis
+***** [ ] Convert Sell Singal to Market Hypotesis
+***** [ ] Test Listner Background process method
+***** [ ] Creae Listner Background process method
+
+**** TODO Market Hypothesis Class [0/4]
+***** [ ] Test MH class attributes
+***** [ ] Create MH class attributes
+***** [ ] Test Calculate Risk Level Method
+***** [ ] Create Calculate Risk Level Method
+
+**** TODO Account Manager Class [0/6]
+***** [ ] Test Process Buy Hypotesis method
+****** [ ] Test Is user qualified
+****** [ ] Test Open Trade
+****** [ ] Test Place Order
 ***** [ ] Process Buy Hypotesis method
+****** [ ] Is user qualified
+****** [ ] Open Trade
+****** [ ] Place Order
+
+***** [ ] Test Process Sell Hypotesis method
 ***** [ ] Process Sell Hypotesis method
 
 *** TODO Part 2: The key is in the past
@@ -44,7 +62,7 @@ Cheeta can manage multiple accounts stored in a users database.
 
 
 ** TODO PHASE 2: Exchanges... Assemble
-A scaled Cheeta that can manage multiple accounts and comes with a CLI.
+A scaled Cheeta that can manage multiple accounts and trade multiple coin pairs in multiple exchanges. Comes with a CLI.
 
 Expected Features:
 - Trade in different Exchanges
