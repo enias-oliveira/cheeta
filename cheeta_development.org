@@ -17,25 +17,27 @@ Expected Features:
 *** TODO Part 1: Binance Man [0%]
 Listen to MH, place order in Binance exchange given custom order settings.
 
-**** TODO Mining Hamster Signal Receiver Class [2/10]
+**** TODO Mining Hamster Signal Receiver Class [4/10]
 ***** [X] Test Get Signal Method
 ***** [X] Get Signal Method
+***** [X] Test Convert Singal to Market Hypotesis
+***** [X] Convert Singal to Market Hypotesis
 ***** [ ] Test Static Receiver
+***** [ ] Implement Account Manager Class to constructor
+***** [ ] Use process signal method from Account Manager
 ***** [ ] Static Receiver
-***** [ ] Test Convert Buy Singal to Market Hypotesis
-***** [ ] Convert Buy Singal to Market Hypotesis
-***** [ ] Test Convert Sell Singal to Market Hypotesis
-***** [ ] Convert Sell Singal to Market Hypotesis
 ***** [ ] Test Listner Background process method
 ***** [ ] Creae Listner Background process method
 
-**** TODO Market Hypothesis Class [0/4]
-***** [ ] Test MH class attributes
-***** [ ] Create MH class attributes
-***** [ ] Test Calculate Risk Level Method
-***** [ ] Create Calculate Risk Level Method
+**** TODO Market Hypothesis Class [6/6]
+***** [X] Test MH class attributes
+***** [X] Create MH class attributes
+***** [X] Test Calculate Risk Level Method
+***** [X] Create Calculate Risk Level Method
+***** [X] Test __str__
+***** [X] Create __str__
 
-**** TODO Account Manager Class [0/6]
+**** TODO Account Manager Class [0/4]
 ***** [ ] Test Process Buy Hypotesis method
 ****** [ ] Test Is user qualified
 ****** [ ] Test Open Trade
@@ -47,6 +49,9 @@ Listen to MH, place order in Binance exchange given custom order settings.
 
 ***** [ ] Test Process Sell Hypotesis method
 ***** [ ] Process Sell Hypotesis method
+
+**** TODO User Class
+***** [ ] test class attributes
 
 *** TODO Part 2: The key is in the past
 Save portofolio and trade data given placed orders.
